@@ -6,7 +6,6 @@
   <description>a package for practice</description>
   <maintainer email="pokerock200@gmail.com">Yuri Sawada</maintainer>
   <license>BSD-3-Clause</license>
-
   <exec_depend>rclpy</excec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>launch_ros</exec_depend>
