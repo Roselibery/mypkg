@@ -1,7 +1,9 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2024 Yuri Sawada 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 
 dir=~
-[ "$1" != "" ] && dir="$1"   #引数があったら、そちらをホームに変える。
+[ "$1" != "" ] && dir="$1"   
 
 cd $dir/ros2_ws
 colcon build
